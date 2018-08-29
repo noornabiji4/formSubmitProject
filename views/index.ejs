@@ -1,0 +1,20 @@
+
+    
+ <% include ./partials/header.ejs %>
+
+<form action="/" method="POST">
+    <input name="fname" placeholder ="enter firstName" >
+    <input name="lname" placeholder= "enter lastName">
+    <input type="submit" value="submit">
+</form>
+<% person.forEach(function(per){%>
+<h3><%= per.firstname %>-<%= per.lastname %></h3>
+<% }); %>
+
+
+
+
+
+
+
+<% include ./partials/footer.ejs %>

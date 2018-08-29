@@ -1,0 +1,19 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "express project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nabiji Noor",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3",
+    "path": "^0.12.7"
+  }
+}
