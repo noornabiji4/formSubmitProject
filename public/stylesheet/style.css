@@ -1,5 +1,10 @@
 body{
-    background-color: blue;
+    background-color: ;
 
 
+}
+table{
+    border-bottom-color: aqua;
+    color: black
+    table-layout: auto;
 }
