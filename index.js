@@ -109,4 +109,4 @@ app.get('/',  (req, res)=> {
     res.render('index' ,{person:person, users:users})
 });
 
-app.listen( () => console.log(`Example app listening on  ${port}`))
+app.listen( port,(req,res) => console.log(`Example app listening on  ${port}`))
